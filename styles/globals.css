@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --bg-darken: #030100;
+  --bg-dark: #0d0c0c;
+  --bg-lighten: #0e0e0f;
+
+  --border: #131313;
+
+  --txt: #fff;
+  --accent: #ea5d2e;
+}
+
+body {
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--txt);
+}
