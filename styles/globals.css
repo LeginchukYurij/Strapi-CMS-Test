@@ -18,3 +18,9 @@ body {
   line-height: 120%;
   color: var(--txt);
 }
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
